@@ -1,0 +1,48 @@
+/*Centrar la imagen*/
+header {
+    text-align: center;
+    
+}
+/*Cambiar color de fondo y tipografía del título*/
+h1 {
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #005677;
+    font-style: normal;
+    
+}
+/* Cambiar color de fondo y tipografía a los subtítulos*/
+h2 {
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+    color: #005677;
+    font-size: 20px;
+    font-style: normal;
+}
+/*Sacamos los puntos del listado*/ 
+.listado {
+    list-style-type: none;
+
+}
+/* Elegimos la tipografía para el body*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+/* Configuramos el pie de página*/
+footer {
+    text-align: center;
+    background-color: #005677;
+    color: #ffffff;  
+
+}
+footer span {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 85%;
+}
+ul li span {
+    font-weight: bold;
+}

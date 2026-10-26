@@ -1,0 +1,75 @@
+
+// VARIABLES//
+$font-primary: 'Times New Roman', Times, serif;
+$color-bg-gray: #C4C4C4;
+$color-primary: #005677;
+$color-white: #ffffff;
+
+/*estilos genenerales para el body*/
+
+
+
+/* Centrar la imagen */
+header {
+    text-align: center;
+}
+
+/* Elegimos la tipografía para el body */
+body {
+    font-family: $font-primary;
+    font-style: italic;
+}
+
+/* Títulos principales y secundarios */
+h1 {
+    background-color: $color-bg-gray;
+    font-family: $font-primary;
+    font-weight: 700;
+    color: $color-primary;
+    font-style: normal;
+}
+
+h2 {
+    background-color: $color-bg-gray;
+    font-family: $font-primary;
+    color: $color-primary;
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* Sacamos los puntos del listado */ 
+.listado {
+    list-style-type: none;
+}
+
+
+// COMPONENTES ANIDADOS (NESTING)//
+
+/* Configuramos el pie de página */
+footer {
+    text-align: center;
+    background-color: $color-primary;
+    color: $color-white;  
+
+    /* Anidamiento del span dentro del footer */
+    span {
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 85%;
+    }
+}
+
+/* Anidamiento para elementos de listas */
+ul {
+    li {
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+
+ 
